@@ -1,0 +1,53 @@
+table {
+    border: solid medium;
+	border-collapse: collapse;
+}
+tbody th:nth-child(1) {
+    font-style: italic;
+	font-weight: normal;
+}
+tbody td:nth-child(2) {
+    color: red;
+	border-color: black
+}
+tbody td:nth-child(4) {
+    color: blue;
+	border-color: black
+}
+td { 
+	border: solid thin; text-align: center; height: 1.4em; width: 1.4em;
+}
+th { 
+    border: solid thin; text-align: center; height: 1.4em; width: 1.4em;
+}
+tr:nth-child(even) {
+    background: lightgreen;
+}
+tr:nth-child(2n+3) {
+    background: lightblue;
+}
+dt:hover + dd{
+   background-color: purple;
+}
+
+.outer_content{
+    background-color: pink;
+	margin-top: 20px; 
+	display: inline-block;
+	width: 75%;
+	height: 60px;
+}
+.inner_content {
+    background-color: blue;
+	width: 75%;
+	height: 40px;
+	text-align: center;
+	margin: 10px auto;
+}
+imagePlaceHolder {
+    background-color: grey;
+    width: 100px;
+    height: 125px;
+    float: left;
+    text-align: center;	
+}
